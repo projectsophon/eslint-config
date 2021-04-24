@@ -1,0 +1,40 @@
+{
+  "name": "@projectsophon/eslint-config",
+  "version": "0.0.0",
+  "description": "ESLint config for Project Sophon projects.",
+  "author": "Blaine Bublitz <blaine.bublitz@gmail.com> (https://github.com/phated)",
+  "repository": "projectsophon/eslint-config",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "main": "index.json",
+  "files": [
+    "index.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-node": "^11.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0",
+    "typescript": "4.2.x"
+  },
+  "devDependencies": {
+    "@projectsophon/prettier-config": "0.0.0",
+    "eslint": "^7.25.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  },
+  "prettier": "@projectsophon/prettier-config",
+  "eslintConfig": {
+    "extends": "./index.json"
+  },
+  "keywords": []
+}
