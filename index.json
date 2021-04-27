@@ -30,6 +30,17 @@
         "varsIgnorePattern": "(^_)",
         "argsIgnorePattern": "(^_)"
       }
+    ],
+    "node/no-missing-import": [
+      "error",
+      {
+        "tryExtensions": [
+          ".ts",
+          ".js",
+          ".json",
+          ".node"
+        ]
+      }
     ]
   },
   "overrides": [
