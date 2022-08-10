@@ -23,8 +23,9 @@
     "eslint-plugin-import"
   ],
   "rules": {
+    "no-redeclare": "off",
     "no-empty-pattern": "off",
-    "@projectsophon/typescript-enum/no-enum": "error",
+    "no-empty": ["error", { "allowEmptyCatch": true }],
     "import/no-unresolved": ["error", { "ignore": ["^https:", "type-fest"] }],
     "import/no-relative-packages": "error",
     "import/no-extraneous-dependencies": [
@@ -34,13 +35,18 @@
         "peerDependencies": false,
         "bundledDependencies": false
       }
-    ],
-    "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": ["error"],
-    "no-redeclare": "off",
-    "@typescript-eslint/no-redeclare": ["error"]
+    ]
   },
   "overrides": [
+    {
+      "files": ["*.ts", "*.mts", "*.cts", ".tsx"],
+      "rules": {
+        "no-undef": "off",
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": ["error", { "varsIgnorePattern": "(^_)", "argsIgnorePattern": "(^_)" }],
+        "@projectsophon/typescript-enum/no-enum": "error"
+      }
+    },
     {
       "files": ["test/**"],
       "env": {
