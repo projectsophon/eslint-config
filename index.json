@@ -7,30 +7,23 @@
     "sourceType": "module"
   },
   "env": {
+    "browser": true,
     "node": true,
     "es2022": true
   },
   "extends": [
     "eslint:recommended",
-    "plugin:eslint-plugin-node/recommended-module",
     "plugin:eslint-plugin-import/recommended",
     "plugin:eslint-plugin-import/typescript",
     "eslint-config-prettier"
   ],
   "plugins": [
-    "eslint-plugin-node",
     "@typescript-eslint/eslint-plugin",
     "@projectsophon/eslint-plugin-typescript-enum",
     "eslint-plugin-import"
   ],
   "rules": {
     "no-empty-pattern": "off",
-    "node/no-missing-import": [
-      "error",
-      {
-        "tryExtensions": [".ts", ".js", ".json", ".node"]
-      }
-    ],
     "@projectsophon/typescript-enum/no-enum": "error",
     "import/no-unresolved": ["error", { "ignore": ["^https:", "type-fest"] }],
     "import/no-relative-packages": "error",
