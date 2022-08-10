@@ -13,24 +13,27 @@
     "index.json"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .json .",
+    "pretest": "npm run lint",
+    "test": "exit 0",
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.22.0",
-    "@typescript-eslint/parser": "^4.22.0",
-    "eslint-config-prettier": "^8.3.0",
+    "@projectsophon/eslint-plugin-typescript-enum": "^2.2.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-node": "^11.1.0"
   },
   "peerDependencies": {
-    "eslint": "^7.0.0",
-    "typescript": "4.2.x"
+    "eslint": "^8.21.0",
+    "typescript": "4.7.x"
   },
   "devDependencies": {
     "@projectsophon/prettier-config": "0.0.0",
-    "eslint": "^7.25.0",
-    "prettier": "^2.2.1",
-    "typescript": "^4.2.4"
+    "eslint": "^8.21.0",
+    "prettier": "^2.7.0",
+    "typescript": "^4.7.4"
   },
   "prettier": "@projectsophon/prettier-config",
   "eslintConfig": {
