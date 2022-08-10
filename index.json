@@ -17,7 +17,12 @@
     "plugin:eslint-plugin-import/typescript",
     "eslint-config-prettier"
   ],
-  "plugins": ["eslint-plugin-node", "@projectsophon/eslint-plugin-typescript-enum", "eslint-plugin-import"],
+  "plugins": [
+    "eslint-plugin-node",
+    "@typescript-eslint/eslint-plugin",
+    "@projectsophon/eslint-plugin-typescript-enum",
+    "eslint-plugin-import"
+  ],
   "rules": {
     "no-empty-pattern": "off",
     "node/no-missing-import": [
@@ -36,7 +41,11 @@
         "peerDependencies": false,
         "bundledDependencies": false
       }
-    ]
+    ],
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error"],
+    "no-redeclare": "off",
+    "@typescript-eslint/no-redeclare": ["error"]
   },
   "overrides": [
     {
