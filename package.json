@@ -1,6 +1,6 @@
 {
   "name": "@projectsophon/eslint-config",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ESLint config for Project Sophon projects.",
   "author": "Blaine Bublitz <blaine.bublitz@gmail.com> (https://github.com/phated)",
   "repository": "projectsophon/eslint-config",
