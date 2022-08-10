@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.0](https://www.github.com/projectsophon/eslint-config/compare/v0.1.1...v0.2.0) (2022-08-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* Remove eslint-plugin-node since rules are used for node & browser
+
+### Features
+
+* Add browser to env ([186c58b](https://www.github.com/projectsophon/eslint-config/commit/186c58bc7e0bfbc92a385aed719ce274c9873c90))
+* Remove eslint-plugin-node since rules are used for node & browser ([186c58b](https://www.github.com/projectsophon/eslint-config/commit/186c58bc7e0bfbc92a385aed719ce274c9873c90))
+
 ### [0.1.1](https://www.github.com/projectsophon/eslint-config/compare/v0.1.0...v0.1.1) (2022-08-10)
 
 
