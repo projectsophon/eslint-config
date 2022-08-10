@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.2.1](https://www.github.com/projectsophon/eslint-config/compare/v0.2.0...v0.2.1) (2022-08-10)
+
+
+### Bug Fixes
+
+* Scope typescript-eslint rules to TS files ([f6e7011](https://www.github.com/projectsophon/eslint-config/commit/f6e70119e1cc7a2395d9f3cd6f18044253b934b4))
+* Turn off no-redeclare rule ([f6e7011](https://www.github.com/projectsophon/eslint-config/commit/f6e70119e1cc7a2395d9f3cd6f18044253b934b4))
+
 ## [0.2.0](https://www.github.com/projectsophon/eslint-config/compare/v0.1.1...v0.2.0) (2022-08-10)
 
 
