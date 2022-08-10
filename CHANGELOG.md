@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.1](https://www.github.com/projectsophon/eslint-config/compare/v0.1.0...v0.1.1) (2022-08-10)
+
+
+### Bug Fixes
+
+* Add typescript-eslint plugin and enable 2 override rules ([0f5354f](https://www.github.com/projectsophon/eslint-config/commit/0f5354fa5bf7db936e01a9c9e455ef8b5d244e0c))
+
 ## 0.1.0 (2022-08-10)
 
 
