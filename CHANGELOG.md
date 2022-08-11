@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.2](https://www.github.com/projectsophon/eslint-config/compare/v0.2.1...v0.2.2) (2022-08-11)
+
+
+### Bug Fixes
+
+* Ensure ts imports use the ts parser ([65e692f](https://www.github.com/projectsophon/eslint-config/commit/65e692ff18921baf72bf337af688b42e59b313cb))
+
 ### [0.2.1](https://www.github.com/projectsophon/eslint-config/compare/v0.2.0...v0.2.1) (2022-08-10)
 
 
