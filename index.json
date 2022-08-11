@@ -37,6 +37,11 @@
       }
     ]
   },
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": ["*.ts", "*.mts", "*.cts", ".tsx"]
+    }
+  },
   "overrides": [
     {
       "files": ["*.ts", "*.mts", "*.cts", ".tsx"],
